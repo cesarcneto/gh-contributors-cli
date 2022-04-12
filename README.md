@@ -39,7 +39,11 @@ In the same terminal window that you ran step #2, run:
 lein run gh-contributors-cli.main --repo apache/apark
 ```
 
-#### 3.b - Using the jar file
+#### 3.b - Using a jar file
+
+There are two options to make use of a jar file.
+1. Download the latest release [here](https://github.com/cesarcneto/gh-contributors-cli/releases/download/v0.1.0-snapshot/gh-contributors-cli-0.1.0-SNAPSHOT.jar); or
+2. Download it in your terminal using `curl -L -o <your-local-file-name-and-destionation> https://github.com/cesarcneto/gh-contributors-cli/releases/download/v0.1.0-snapshot/gh-contributors-cli-0.1.0-SNAPSHOT.jar`
 
 In the same terminal window that you ran step #2, run:
 
@@ -47,12 +51,6 @@ In the same terminal window that you ran step #2, run:
 java -jar gh-contributors-cli-latest.jar --repo apache/spark
 ```
 
-Once the script run is completed, a file called `contributors+user+commit.json` should be created at `.data/apache/spark` (assuming that you provided `--repo apache/spark` to the script). From this point, you can optionally make the file more readable by running the following command. E.g:
-
-```bash
-cat .data/apache/spark/contributors+user+commit.json | jq . > ./result.json
-```
-
-`result.json` is now a human-readable json file.
+Once the command run is completed, a file called `result.csv` should be created at `.data/apache/spark` (assuming that you provided `--repo apache/spark` to the script). From this point, you should be able to import this csv file into your favorite spreadsheet tool and have fun! ^.^
 
 **IMPORTANT NOTE**: This script will keep data cached in `.data` folder. Make sure you delete the folder whenever you want to fetch data for a given repo again.
