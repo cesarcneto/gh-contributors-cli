@@ -7,7 +7,12 @@ It fetches contributors from a given Github repo, fetches their user profile plu
 ## Requirements
 
 To make use of this CLI you're expected to have installed the following softwares:
-TBD
+
+- Java Runtime Environment (aka JRE) 8+
+
+If you new to Java, or to Software Engineering, you should simply try to download it from https://java.com/en/download/
+
+Otherwise, I highly recommend you to manage your Java installations using the awesome https://sdkman.io/
 
 ## Quickstart
 
