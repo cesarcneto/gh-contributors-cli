@@ -16,13 +16,13 @@ If you new to Java, or to Software Engineering, you should simply try to downloa
 
 Otherwise, I highly recommend you to manage your Java installations using the awesome https://sdkman.io/
 
-### Access Nubank's Github 
+### Access Github 
 
 Once you have the required software installed (see #requirements) ensure you have access to Github and create a personal access token.
 
 ## Step to run the tool
 
-### 1 - Create your personal access token in Github (optional)
+### 1 - Create your personal access token in Github
 
 [Create your personal access token in Github](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
