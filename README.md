@@ -30,7 +30,7 @@ Note: This is a required step in order to run the script without being rate limi
 
 ### 2 - Make the required environment variables available
 
-2 - Make `GH_FETCH_CONTRIBUTORS_USER` and `GH_FETCH_CONTRIBUTORS_TOKEN` environment variables available
+Make `GH_FETCH_CONTRIBUTORS_USER` and `GH_FETCH_CONTRIBUTORS_TOKEN` environment variables available
 
 E.g. in a terminal window run:
 ```bash
